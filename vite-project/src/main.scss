@@ -1,0 +1,88 @@
+@import './styles/mixins.scss';
+@import './styles/variables.scss';
+@import 'swiper/scss';
+@import 'swiper/scss/navigation';
+
+*{
+  box-sizing: border-box;
+}
+body, html {
+
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-size: 10px;
+  font-family: Haoura;
+
+}
+
+
+#app {
+  margin: 0 ;
+  padding: 0;
+ 
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 8rem ;
+
+  
+}
+
+@font-face {
+  font-family: "Haoura";
+  font-weight: 400;
+  src: url("../src/assets/fonts/haoura/Hauora-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Haoura";
+  font-weight: 600;
+  src: url("../src/assets/fonts/haoura/Hauora-SemiBold.ttf") ;
+}
+
+@font-face {
+  font-family: "Haoura";
+  font-weight: 800;
+  src: url("../src/assets/fonts/haoura/Hauora-ExtraBold.ttf") ;
+}
+
+@font-face {
+  font-family: "Haoura";
+  font-weight: 700;
+  src: url("../src/assets/fonts/haoura/Hauora-Bold.ttf") ;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 700;
+  src: url("../src/assets/fonts/inter/Inter-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 800;
+  src: url("../src/assets/fonts/inter/Inter-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 600;
+  src: url("../src/assets/fonts/inter/Inter-ExtraBold.ttf") ;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 400;
+  src: url("../src/assets/fonts/inter/Inter-Bold.ttf");
+}
+
+@font-face {
+  font-family: "golos";
+  font-weight: 700;
+  src: url("../src/assets/fonts/golos/GolosText-Bold.ttf");
+}
+
+

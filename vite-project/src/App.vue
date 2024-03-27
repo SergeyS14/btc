@@ -1,7 +1,10 @@
 <script setup>
-  import Header from './components/header.vue' 
-  import Main from './components/Main.vue'
-  import Support from './components/support.vue'
+  import Header from './components/header.vue';
+  import Main from './components/Main.vue';
+  import Support from './components/support.vue';
+  import Download from './components/Download.vue';
+
+
 </script>
 
 <template>
@@ -10,6 +13,9 @@
     <Main/>
   </div>
     <Support/>
+    <div class="bg-image">
+      <Download/>
+    </div>
 </template>
 
 <style scoped>

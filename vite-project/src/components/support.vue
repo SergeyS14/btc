@@ -6,9 +6,10 @@ export default{
 }
 </script>
 <template>
-<div class="support">
+    <div style="background-color: black;">
+<div class="support container">
     
-<div class="support__content">
+<div class="support__content ">
         <span class="support__title">Нас поддерживают</span>
         <p class="support__text">Получите свободу, благодаря конфиденциальным, глобальным цифровым деньгам. Становитесь своим собственным банком с полным контролем над своими цифровыми активами.</p>
             <div class="swap">
@@ -23,29 +24,28 @@ export default{
     </div>
     <p class="bgword">ПАРТНЕРЫ</p>
 </div>
+</div>
 </template>
 <style lang="scss">
     .support{
-        background: rgb(15, 15, 15);
-    width: 100%;
-    height: 61.7rem;
-    position: absolute;
+
+       
         .bgword{
             position: relative;
             font-family: golos;
-            top: -410px;
-            left: -32px;
+            top: -350px;
+            left: -220px;
             font-size: 18rem;
             font-weight: 700;
             color: white;
             background: linear-gradient(91.92deg, rgba(255, 255, 255, 0.05) 29.24%, rgba(176, 250, 255, 0) 131.64%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
+            margin: 0;
             
         }
         &__content{
-            margin-top: 16.8rem;
-            margin-left: 16.5rem;
+            padding-top: 16.8rem;
         }
         &__title{
             @include text(h2);

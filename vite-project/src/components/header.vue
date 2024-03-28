@@ -38,7 +38,7 @@ export default {
 </script>
 
 <template>
-    <header class="header" >
+    <header class="header " >
       <icon-base width="42" height="42" class="header__logo" icon-name="Logo"><icon-logo /></icon-base>
   <nav  class="header__nav">
       <ul class="header__list">
@@ -77,6 +77,7 @@ export default {
     </div>
   </section>
 </div>
+
 </header>
 </template>
 

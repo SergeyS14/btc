@@ -3,6 +3,7 @@
   import Main from './components/Main.vue';
   import Support from './components/support.vue';
   import Download from './components/Download.vue';
+  import Form from './components/From.vue'
 
 
 </script>
@@ -16,6 +17,7 @@
     <div class="bg-image">
       <Download/>
     </div>
+    <Form/>
 </template>
 
 <style scoped>

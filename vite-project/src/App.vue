@@ -4,6 +4,7 @@
   import Support from './components/support.vue';
   import Download from './components/Download.vue';
   import Form from './components/From.vue'
+  import Footer from './components/Footer.vue'
 
 
 </script>
@@ -18,6 +19,7 @@
       <Download/>
     </div>
     <Form/>
+    <Footer/>
 </template>
 
 <style scoped>

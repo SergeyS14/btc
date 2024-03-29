@@ -191,6 +191,7 @@ padding-top: 12.8rem;
         float: right;
         position: relative;
         top: -52px;
+        border-radius: .8rem;
     }
     &__imgTw{
         float: right;
@@ -202,6 +203,7 @@ padding-top: 12.8rem;
         float: right;
         position: relative;
         top: -40px;
+        border-radius: .8rem;
     }
     
 }
